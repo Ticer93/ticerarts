@@ -316,6 +316,11 @@ li {
     padding: 2rem;
 }
 
+.footer__right {
+    justify-self: end;
+    align-self: end;
+}
+
 /* <links> */
 
 a {
