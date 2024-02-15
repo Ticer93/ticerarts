@@ -455,3 +455,27 @@ a:hover {
     margin-inline: 1.5em;
     margin-block: 1.5em;
 }
+
+button {
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    position: absolute;
+    right: 2em; top: 2em;
+    border-radius: 0.5em;
+}
+
+button:hover,
+button:focus {
+  background: orange;
+  color: black;
+}
+
+button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+button:active {
+    transform: scale(0.99);
+}
