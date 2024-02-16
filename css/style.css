@@ -460,9 +460,10 @@ button {
     width: 30px;
     height: 30px;
     background-color: yellow;
+    color: white;
     position: absolute;
     right: 2em; top: 2em;
-    border-radius: 0.5em;
+    border-radius: 1.5em;
 }
 
 button:hover,
