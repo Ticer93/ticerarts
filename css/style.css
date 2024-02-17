@@ -1,22 +1,6 @@
 /* <overall styling> */
 
 :root {
-    --clr-bg-container-dark: rgb(70, 70, 70);
-    --clr-bg-container-light: rgb(193, 180, 133);
-    --clr-bg-light: rgb(212, 199, 146);
-    --clr-bg-dark: rgb(50, 50, 50);
-    --clr-bg-footer: rgb(30, 30, 30);
-    --clr-primary-400:  rgb(70, 70, 70);
-    /* --clr-primary-800: rgb(91, 37, 3); */
-    --clr-primary-800: rgb(0, 0, 0);
-    --font-clr-link: orangered; 
-    --font-clr-text-light: antiquewhite;
-    --font-clr-text-dark: black;
-    --border-radius: 15px;
-    --clr-button: black;
-}
-
-.darkMode {
     --clr-bg-container-dark: rgb(193, 180, 133);
     --clr-bg-container-light: rgb(193, 180, 133);
     --clr-bg-light: rgb(212, 199, 146);
@@ -26,10 +10,27 @@
     /* --clr-primary-800: rgb(91, 37, 3); */
     --clr-primary-800: rgb(0, 0, 0);
     --font-clr-link: orangered; 
-    --font-clr-text-light: black;
-    --font-clr-text-dark: antiquewhite;
+    --font-clr-txt-light: black;
+    --font-clr-txt-dark: antiquewhite;
+    --font-clr-txt-bg: rgb(200, 170, 132);
     --border-radius: 15px;
     --clr-button: black;
+    --h1-size: 60px;
+    --h1-size-small: 50px;
+    --h2-size: 25px;
+    --h2-size-small: 20px;
+    --p-size: 18px;
+    --p-size-small: 15px;
+}
+
+.darkMode {
+    --clr-bg-container-dark: rgb(70, 70, 70);
+    --clr-bg-dark: rgb(50, 50, 50);
+    --clr-bg-footer: rgb(30, 30, 30);
+    --clr-primary-400:  rgb(70, 70, 70);
+    /* --clr-primary-800: rgb(91, 37, 3); */
+    --font-clr-txt-light: antiquewhite;
+    --font-clr-txt-dark: black;
 }
 
 html {
@@ -46,15 +47,16 @@ body {
 
 h1 {
     margin: 0px;
-    color: var(--font-clr-text-light);
+    color: antiquewhite;
     font-family: 'Courier New', Courier, monospace;
+    font-size: var(--h1-size-small);
 }
 
 h2 {
     margin: 10px;
-    color: var(--font-clr-text-dark);
+    color: var(--font-clr-txt-dark);
     font-family: 'Courier New', Courier, monospace;
-    font-size: 25px;
+    font-size: var(--h2-size-small);
     padding-top: 1rem;
     padding-inline: 1rem;
 }
@@ -65,10 +67,25 @@ b {
 
 p, span {
     margin: 20px;
-    color: var(--font-clr-text-light);
+    color: var(--font-clr-txt-light);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 18px;
+    font-size: var(--p-size-small);
     padding-inline: 1.5rem;
+}
+
+@media (min-width: 40em){
+    h1 {
+        font-size: var(--h1-size);
+    }
+
+    h2 {
+        font-size: var(--h2-size);
+    }
+
+    p,
+    span {
+        font-size: var(--p-size);
+    }
 }
 
 img {
@@ -91,7 +108,7 @@ ul {
 
 li {
     list-style-type: none;
-    color: var(--font-clr-text-light);
+    color: var(--font-clr-txt-light);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -242,7 +259,7 @@ li {
     justify-content: center;
     justify-items: center;
     margin-left: 2rem;
-    margin-right: 9rem;
+    margin-right: 2rem;  /* --> 9rem mit Slice4.png */
     padding-block: 2em;
     padding-inline: 1rem;
     background-color: var(--clr-bg-container-dark);
@@ -304,7 +321,7 @@ li {
 
 .footer {
     background-color: var(--clr-bg-footer);
-    color: var(--font-clr-text-light);
+    color: var(--font-clr-txt-light);
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     position: sticky;
@@ -430,7 +447,7 @@ a:hover {
     .projectsgrid-item.featured {
         grid-row: span 2;
         grid-column: span 2;
-}
+    }
 }
 
 /* @media (min-width: 60em){
@@ -459,17 +476,21 @@ a:hover {
 button {
     width: 30px;
     height: 30px;
-    background-color: yellow;
-    color: white;
+    background-color: rgb(255, 213, 0);
     position: absolute;
-    right: 2em; top: 2em;
+    right: 2em;
+    top: 2em;
     border-radius: 1.5em;
+    font-size: x-large;
+    line-height: 0;
+    margin-inline: 0;
+    padding-inline: 0;
 }
 
 button:hover,
 button:focus {
-  background: orange;
-  color: black;
+    background: orange;
+    color: black;
 }
 
 button:focus {
