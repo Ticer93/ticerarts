@@ -1,0 +1,32 @@
+CHECKLISTE
+
+content aktualisieren in 
+[ offen ] - illustrations.html
+[ offen ] - blender.html
+[ offen ] - otherprojects.html
+
+content anzeige in einem Card mit Foto, Titel und kurzer Beschreibung.. und per Click ein Pop Up mit kompletter Card und Beschreibung und ev. mehreren beispielbilder.
+[ offen ]
+
+links in navbar vereinheitlichen
+[ offen ] - index.html
+[ offen ] - aboutme.html
+[ offen ] - illustrations.html
+[ offen ] - blender.html
+[ offen ] - otherprojects.html
+
+links in footer vereinheitlichen und erkenntlich formatieren
+[ offen ] - index.html
+[ offen ] - aboutme.html
+[ offen ] - illustrations.html
+[ offen ] - blender.html
+[ offen ] - otherprojects.html
+
+schriftarten in allen browser kontrollieren und aktualisieren
+[ offen ] - Safari
+[ offen ] - Firefox
+[ offen ] - Chrome
+[ offen ] - Opera
+[ offen ] - Edge
+
+[ offen ] - bildqualität verbesser (verkleinern) für schnellere Ladezeiten (performance)
