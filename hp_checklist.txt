@@ -8,12 +8,14 @@ content aktualisieren in
 content anzeige in einem Card mit Foto, Titel und kurzer Beschreibung.. und per Click ein Pop Up mit kompletter Card und Beschreibung und ev. mehreren beispielbilder.
 [ offen ]
 
-links in navbar vereinheitlichen
+links in navbar vereinheitlichen (wörter)
 [ offen ] - index.html
 [ offen ] - aboutme.html
 [ offen ] - illustrations.html
 [ offen ] - blender.html
 [ offen ] - otherprojects.html
+
+[ offen ] - links in navbar animieren
 
 links in footer vereinheitlichen und erkenntlich formatieren
 [ offen ] - index.html
